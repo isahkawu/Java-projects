@@ -9,7 +9,7 @@ public static void main(String[] args) {
     while (true) {
 
         System.out.println("\n====== NOKIA PHONE MENU ======");
-        System.out.println("1. Contacts");
+        System.out.println("1. Phon Book");
         System.out.println("2. Messages");
         System.out.println("3. Chat");
         System.out.println("4. Call Register");
@@ -36,7 +36,7 @@ public static void main(String[] args) {
                 
                 while (true) {
 
-                    System.out.println("\n===== CONTACTS =====");
+                    System.out.println("\n===== PHONEBOOK =====");
                     System.out.println("1. View Contacts");
                     System.out.println("2. Add Contact");
                     System.out.println("3. Search Contact");
