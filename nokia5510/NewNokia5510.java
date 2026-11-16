@@ -31,9 +31,9 @@ public static void main(String[] args) {
 
        switch (choice) {
 
-           // CONTACTS
+        
         case "1": {
-                contactsMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== CONTACTS =====");
@@ -69,7 +69,7 @@ public static void main(String[] args) {
                             break;
 
                         case "4":
-                            break contactsMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -78,9 +78,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // MESSAGES
+    
             case "2": {
-                messagesMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== MESSAGES =====");
@@ -111,7 +111,7 @@ public static void main(String[] args) {
                             break;
 
                         case "6":
-                            break messagesMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -120,9 +120,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // CHAT
+        
             case "3": {
-                chatMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== CHAT =====");
@@ -136,7 +136,7 @@ public static void main(String[] args) {
                     switch (submenuChoice) {
 
                         case "1":
-                            System.out.print("Enter recipient name: ");
+                            System.out.print("Enter  name: ");
                             String recipient = input.nextLine();
 
                             System.out.print("Type your message: ");
@@ -150,7 +150,7 @@ public static void main(String[] args) {
                             break;
 
                         case "3":
-                            break chatMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -159,9 +159,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // CALL REGISTER
+            
             case "4": {
-                callRegisterMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== CALL REGISTER =====");
@@ -193,7 +193,7 @@ public static void main(String[] args) {
                             break;
 
                         case "5":
-                            break callRegisterMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -202,9 +202,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // TONE TONES
+            
             case "5": {
-                toneMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== TONE TONES =====");
@@ -241,7 +241,7 @@ public static void main(String[] args) {
                             break;
 
                         case "6":
-                            break toneMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -252,7 +252,7 @@ public static void main(String[] args) {
 
             // SETTINGS
             case "6": {
-                settingsMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== SETTINGS =====");
@@ -289,7 +289,7 @@ public static void main(String[] args) {
                             break;
 
                         case "6":
-                            break settingsMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -298,9 +298,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // CALL DIVERT
+            
             case "7": {
-                callDivertMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== CALL DIVERT =====");
@@ -342,7 +342,7 @@ public static void main(String[] args) {
                             break;
 
                         case "7":
-                            break callDivertMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -351,9 +351,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // MUSIC
+            
             case "8": {
-                musicMenu:
+            
                 while (true) {
 
                     System.out.println("\n===== MUSIC =====");
@@ -395,7 +395,7 @@ public static void main(String[] args) {
                             break;
 
                         case "7":
-                            break musicMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -404,9 +404,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // GAMES
+            
             case "9": {
-                gamesMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== GAMES =====");
@@ -438,7 +438,7 @@ public static void main(String[] args) {
                             break;
 
                         case "5":
-                            break gamesMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -447,9 +447,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // CALCULATOR
+            
             case "10": {
-                calculatorMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== CALCULATOR =====");
@@ -473,20 +473,20 @@ public static void main(String[] args) {
  
                             case "1":
                             
-                          
+                          System.out.print(" +");
                          
                                 break;
 
                             case "2":
                          
                             
-                            
+                            System.out.print("-");
 
                               
                                 break;
 
                             case "3":
-                           
+                           System.out.print("x ");
                             
                               
                                 break;
@@ -500,7 +500,7 @@ public static void main(String[] args) {
                                 
                                 break;
                               case "5":
-                              break calculatorMenu;
+                              break;
                       
                             default:
                         System.out.println("Invalid choice!");
@@ -509,9 +509,9 @@ public static void main(String[] args) {
                break; 
             }
 
-            // REMINDERS
+        
             case "11": {
-                remindersMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== REMINDERS =====");
@@ -546,7 +546,7 @@ public static void main(String[] args) {
                             break;
 
                         case "5":
-                            break remindersMenu;
+                            break;
 
                         default:
                             System.out.println("Invalid choice!");
@@ -555,9 +555,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // CLOCK
+            
             case "12": {
-                clockMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== CLOCK =====");
@@ -584,7 +584,7 @@ public static void main(String[] args) {
                             break;
 
                         case "4":
-                            break clockMenu;
+                            break 
 
                         default:
                             System.out.println("Invalid choice!");
@@ -593,9 +593,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // PROFILES
+            
             case "13": {
-                profilesMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== PROFILES (ACTIVATION) =====");
@@ -632,7 +632,7 @@ public static void main(String[] args) {
                             break;
 
                         case "6":
-                            break profilesMenu;
+                            break 
 
                         default:
                             System.out.println("Invalid choice!");
@@ -641,9 +641,9 @@ public static void main(String[] args) {
                 break;
             }
 
-            // WAP SERVICES
+            
             case "14": {
-                wapMenu:
+                
                 while (true) {
 
                     System.out.println("\n===== WAP SERVICES =====");
@@ -688,7 +688,7 @@ public static void main(String[] args) {
                             break;
 
                         case "7":
-                            break wapMenu;
+                            break 
 
                         default:
                             System.out.println("Invalid choice!");
@@ -697,15 +697,15 @@ public static void main(String[] args) {
                 break;
             }
 
-            // CALL
+            
             case "15":
                 System.out.println("Calling...");
                 break;
 
-            // EXIT
+            
             case "16":
                 System.out.println("Thank you for using Nokia!");
-                input.close();
+            
                 return;
 
             default:
